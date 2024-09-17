@@ -6,28 +6,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="reset.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <header class="body__header">
+      <div class="header-background"></div>
       <div class="header__wraper">
         <div class="links__container">
           <a href="#" class="burger__link">Про комплекс</a>
-          <a href="#" class="burger__link">Планування</a>
+          <a href="#" class="burger__link">Інфраструктура</a>
           <a href="#" class="burger__link">Місцезнаходження</a>
           <a href="#" class="burger__link">Оточення</a>
-          <a href="#" class="burger__link">Хід будівництва</a>
+          <a href="#" class="burger__link">Квартири</a>
           <a href="#" class="burger__link">Галерея</a>
           <a href="#" class="burger__link">Контакти</a>
         </div>
@@ -39,7 +28,7 @@
           </div>
         </nav>
         <a href="main.html" class="main__logo"
-          ><img src="Images/logo.png" alt="icon" class="header__logo"
+          ><img src="Images/sunray-logo.png" alt="icon" class="header__logo"
         /></a>
         <a href="tel:0671232323" class="header__phone"
           ><img
@@ -49,31 +38,346 @@
           />
         </a>
       </div>
-      <div class="p-container">
-        <p class="p-header-main">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
-        <button class="btn-price">ДІЗНАТИСЬ ЦІНУ</button>
-      </div>
-      <div class="price-modal">
-        <section class="price-section">
-          <h1 class="h1-modal">ДІЗНАТИСЬ ЦІНУ</h1>
+      <section class="section-p">
+        <div class="p-container">
+          <p class="p-header-main">МІСТЕЧКО СОНЯЧНИЙ ПРОМІНЬ</p>
+          <button class="btn-price">ДІЗНАТИСЬ ЦІНУ</button>
+        </div>
+        <div class="price-modal">
+          <section class="price-section">
+            <h1 class="h1-modal">ДІЗНАТИСЬ ЦІНУ</h1>
 
-          <form action="#" class="form-price">
-            <input type="text" class="input-modal" placeholder="ім'я" />
-            <input type="tel" class="input-modal" placeholder="Телефон" />
-            <button class="btn-send">Надіслати</button>
-          </form>
-          <button class="button-price-close">
-            <img
-              src="Images/cross-close-svgrepo-com (1).svg"
-              alt="cross"
-              width="17px"
-            />
-          </button>
-        </section>
+            <form action="#" class="form-price">
+              <input type="text" class="input-modal" placeholder="ім'я" />
+              <input type="tel" class="input-modal" placeholder="Телефон" />
+              <button class="btn-send">Надіслати</button>
+            </form>
+            <button class="button-price-close">
+              <img
+                src="Images/cross-close-svgrepo-com (1).svg"
+                alt="cross"
+                width="17px"
+              />
+            </button>
+          </section>
+        </div>
+        <div class="social_media-wrapper">
+          <nav class="nav-social">
+            <a href="#"
+              ><img
+                src="Images/icons8-facebook-24.png"
+                alt="fb"
+                class="social-media"
+            /></a>
+            <a href="#"
+              ><img
+                src="Images/icons8-instagram-24.png"
+                alt="inst"
+                class="social-media"
+            /></a>
+            <a href="#"
+              ><img
+                src="Images/icons8-telegram-app-24.png"
+                alt="whats"
+                class="social-media"
+            /></a>
+            <a href="#"
+              ><img
+                src="Images/icons8-whatsapp-24.png"
+                alt="telegram"
+                class="social-media"
+            /></a>
+          </nav>
+          <p class="header-adress">м.Київ, вул. Lorem-ipsum.</p>
+        </div>
+      </section>
+    </header>
+    <main class="main-section">
+      <div class="flats__wrapper">
+        <div class="flats__wrapper-1">
+          <h1 class="flats__heading">Kвартири</h1>
+          <p class="flats__text hidden">
+            З 2-го по 6-й поверхи розташовані квартири площею 300 кв.м, по одній
+            на поверсі, в лівій частині будинку. У правій частині розташовані
+            квартири площею 150 кв.м, по дві на поверсі. Усі квартири мають вид
+            на річку Козинку. В квартирах площею 300 кв.м є тераси з можливістю
+            облаштування BBQ-зони з вбудованим хоспером і примусовою
+            вентиляцією.
+          </p>
+          <div class="flats__image-1 hidden"></div>
+        </div>
+        <div class="flats__wrapper-2">
+          <p class="flats__text hidden-3">
+            З 2-го по 6-й поверхи розташовані квартири площею 300 кв.м, по одній
+            на поверсі, в лівій частині будинку. У правій частині розташовані
+            квартири площею 150 кв.м, по дві на поверсі. Усі квартири мають вид
+            на річку Козинку. В квартирах площею 300 кв.м є тераси з можливістю
+            облаштування BBQ-зони з вбудованим хоспером і примусовою
+            вентиляцією.
+          </p>
+          <div class="flats__image-2 hidden-3"></div>
+        </div>
       </div>
-      <div class="social_media-wrapper">
+      <article class="planning__wrapper">
+        <h1 class="planning__heading-main">Планування квартир</h1>
+        <div class="planning__wrapper-cards">
+          <div class="planning__card hidden">
+            <div class="planning__image-big planning-image-background-1"></div>
+            <h1 class="planning__heading">Площа 150 кв.м</h1>
+            <p class="planning__text-big">
+              З 2-го по 6-й поверхи розташовані квартири площею 300 кв.м — по
+              одній на поверсі в лівій частині будинку. У правій частині кожного
+              поверху знаходяться квартири по 150 кв.м — по дві на поверсі. Усі
+              квартири мають чудовий вид на річку Козинку. У квартирах площею
+              300 кв.м є тераси з можливістю облаштування BBQ-зони з вбудованим
+              хоспером і примусовою вентиляцією.
+            </p>
+            <button class="planning__button">дізнатись більше</button>
+          </div>
+          <div class="planning__card hidden">
+            <div class="planning__image-big planning-image-background-2"></div>
+            <h1 class="planning__heading">Площа 300 кв.м</h1>
+            <p class="planning__text-big">
+              З 2-го по 6-й поверхи розташовані квартири площею 300 кв.м — по
+              одній на поверсі в лівій частині будинку. У правій частині кожного
+              поверху знаходяться квартири по 150 кв.м — по дві на поверсі. Усі
+              квартири мають чудовий вид на річку Козинку. У квартирах площею
+              300 кв.м є тераси з можливістю облаштування BBQ-зони з вбудованим
+              хоспером і примусовою вентиляцією.
+            </p>
+            <button class="planning__button">дізнатись більше</button>
+          </div>
+          <div class="planning__card hidden">
+            <div class="planning__image-big planning-image-background-3"></div>
+            <h1 class="planning__heading">Площа 450 кв.м</h1>
+            <p class="planning__text-big">
+              З 2-го по 6-й поверхи розташовані квартири площею 300 кв.м — по
+              одній на поверсі в лівій частині будинку. У правій частині кожного
+              поверху знаходяться квартири по 150 кв.м — по дві на поверсі. Усі
+              квартири мають чудовий вид на річку Козинку. У квартирах площею
+              300 кв.м є тераси з можливістю облаштування BBQ-зони з вбудованим
+              хоспером і примусовою вентиляцією.
+            </p>
+            <button class="planning__button">дізнатись більше</button>
+          </div>
+          <div class="planning__card hidden">
+            <div class="planning__image-big planning-image-background-4"></div>
+            <h1 class="planning__heading">Площа 600 кв.м</h1>
+            <p class="planning__text-big">
+              З 2-го по 6-й поверхи розташовані квартири площею 300 кв.м — по
+              одній на поверсі в лівій частині будинку. У правій частині кожного
+              поверху знаходяться квартири по 150 кв.м — по дві на поверсі. Усі
+              квартири мають чудовий вид на річку Козинку. У квартирах площею
+              300 кв.м є тераси з можливістю облаштування BBQ-зони з вбудованим
+              хоспером і примусовою вентиляцією.
+            </p>
+            <button class="planning__button">дізнатись більше</button>
+          </div>
+        </div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="planning__card">
+              <div class="planning__image planning-image-background-1"></div>
+              <h1 class="planning__heading">Площа 150 кв.м</h1>
+              <p class="planning__text">
+                З 2-го по 6-й поверхи розташовані квартири площею 300 кв.м — по
+                одній на поверсі в лівій частині будинку. У правій частині
+                кожного поверху знаходяться квартири по 150 кв.м — по дві на
+                поверсі. Усі квартири мають чудовий вид на річку Козинку. У
+                квартирах площею 300 кв.м є тераси з можливістю облаштування
+                BBQ-зони з вбудованим хоспером і примусовою вентиляцією.
+              </p>
+              <button class="planning__button">дізнатись більше</button>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="planning__card">
+              <div class="planning__image planning-image-background-2"></div>
+              <h1 class="planning__heading">Площа 300 кв.м</h1>
+              <p class="planning__text">
+                З 2-го по 6-й поверхи розташовані квартири площею 300 кв.м — по
+                одній на поверсі в лівій частині будинку. У правій частині
+                кожного поверху знаходяться квартири по 150 кв.м — по дві на
+                поверсі. Усі квартири мають чудовий вид на річку Козинку. У
+                квартирах площею 300 кв.м є тераси з можливістю облаштування
+                BBQ-зони з вбудованим хоспером і примусовою вентиляцією.
+              </p>
+              <button class="planning__button">дізнатись більше</button>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="planning__card">
+              <div class="planning__image planning-image-background-3"></div>
+              <h1 class="planning__heading">Площа 450 кв.м</h1>
+              <p class="planning__text">
+                З 2-го по 6-й поверхи розташовані квартири площею 300 кв.м — по
+                одній на поверсі в лівій частині будинку. У правій частині
+                кожного поверху знаходяться квартири по 150 кв.м — по дві на
+                поверсі. Усі квартири мають чудовий вид на річку Козинку. У
+                квартирах площею 300 кв.м є тераси з можливістю облаштування
+                BBQ-зони з вбудованим хоспером і примусовою вентиляцією.
+              </p>
+              <button class="planning__button">дізнатись більше</button>
+            </div>
+          </div>
+          <div class="mySlides fade">
+            <div class="planning__card">
+              <div class="planning__image planning-image-background-4"></div>
+              <h1 class="planning__heading">Площа 600 кв.м</h1>
+              <p class="planning__text">
+                З 2-го по 6-й поверхи розташовані квартири площею 300 кв.м — по
+                одній на поверсі в лівій частині будинку. У правій частині
+                кожного поверху знаходяться квартири по 150 кв.м — по дві на
+                поверсі. Усі квартири мають чудовий вид на річку Козинку. У
+                квартирах площею 300 кв.м є тераси з можливістю облаштування
+                BBQ-зони з вбудованим хоспером і примусовою вентиляцією.
+              </p>
+              <button class="planning__button">дізнатись більше</button>
+            </div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+        </div>
+      </article>
+      <section class="infrastructure__wrapper">
+        <h1 class="infrastructure__heading">інфраструктура</h1>
+        <div class="infrastructure__icons">
+          <div class="infrastructure__icons-wrapper">
+            <div class="infrastructure__icons-flex">
+              <img
+                src="Images/generator.svg"
+                alt="generator"
+                class="infrastructure__img hidden-2"
+              />
+              <h2 class="icons__text hidden-2">генератор</h2>
+            </div>
+            <div class="infrastructure__icons-flex">
+              <img
+                src="Images/beach.svg"
+                alt="beach"
+                class="infrastructure__img hidden-2"
+              />
+              <h2 class="icons__text hidden-2">вихід на пляж</h2>
+            </div>
+          </div>
+          <p class="infrastructure__paragraph hidden-2">
+            Усі квартири обладнані індивідуальними лічильниками електроенергії,
+            газу та води. Забезпечено автономне опалення й систему очищення
+            води. За бажанням, квартира може бути оснащена генератором та
+            системою безперебійного накопичення електроенергії.
+          </p>
+          <div class="infrastructure__icons-wrapper">
+            <div class="infrastructure__icons-flex hidden-2">
+              <img
+                src="Images/reception.svg"
+                alt="reception"
+                class="infrastructure__img hidden-2"
+              />
+              <h2 class="icons__text hidden-2">
+                ресепція з офісом управління будинком
+              </h2>
+            </div>
+            <div class="infrastructure__icons-flex">
+              <img
+                src="Images/parking (2).png"
+                alt="parking"
+                class="infrastructure__img hidden-2"
+              />
+              <h2 class="icons__text hidden-2">
+                паркінг з місцями для зарядки електрокарів
+              </h2>
+            </div>
+          </div>
+
+          <p class="infrastructure__paragraph hidden-2">
+            На першому нежитловому поверсі в центральній частині розташована
+            ресепція з офісом управління будинком, лобі-бар на 30 місць, кухня
+            для приготування страв на замовлення та паркомісця на 10-12
+            автомобілів. Будинок має вихід на власний пляж, обладнаний туалетом
+            і роздягальнею.
+          </p>
+          <div class="infrastructure__icons-wrapper">
+            <div class="infrastructure__icons-flex">
+              <img
+                src="Images/lounge-bar.png"
+                alt="reception"
+                class="infrastructure__img hidden-2"
+              />
+              <h2 class="icons__text hidden-2">лаундж-бар на 30 осіб</h2>
+            </div>
+            <div class="infrastructure__icons-flex">
+              <img
+                src="Images/sauna.png"
+                alt="parking"
+                class="infrastructure__img hidden-2"
+              />
+              <h2 class="icons__text hidden-2">сауна з зоною для відпочинку</h2>
+            </div>
+          </div>
+
+          <p class="infrastructure__paragraph hidden-2">
+            На першому нежитловому поверсі в центральній частині розташована
+            ресепція з офісом управління будинком, лобі-бар на 30 місць, кухня
+            для приготування страв на замовлення та паркомісця на 10-12
+            автомобілів. Будинок має вихід на власний пляж, обладнаний туалетом
+            і роздягальнею.
+          </p>
+        </div>
+        <a href="#" class="infrastructure__link">Про Комплекс</a>
+      </section>
+      <div class="contactsAndMap">
+        <div class="contacts">
+          <h1 class="contacts__h1">Контакти</h1>
+          <div class="contacts__wrapper">
+            <h2 class="contacts__heading">Адреса:</h2>
+            <span class="contacts__span">Київ, вул. Lorem ipsum.</span>
+          </div>
+          <div class="contacts__wrapper">
+            <h2 class="contacts__heading">Телефон:</h2>
+            <span class="contacts__span">+38 (012) 345-67-89</span>
+          </div>
+          <div class="contacts__wrapper">
+            <h2 class="contacts__heading">Офіс Продаж</h2>
+            <span class="contacts__span">Київ, вул. Lorem ipsum.</span>
+          </div>
+          <div class="contacts__wrapper">
+            <h2 class="contacts__heading">Графік роботи:</h2>
+            <span class="contacts__span"
+              >Пн - Пт: 9:00 - 18:00 Сб - Нд: 10:00 - 17:00</span
+            >
+          </div>
+          <button class="button__map">Прокласти маршрут</button>
+        </div>
+        <div class="map"></div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__text">
+        Даний сайт містить, в тому числі, презентаційні матеріали, які не
+        передбачають собою будь-яких договірних зобов'язань та юридичних
+        наслідків, а носить виключно ознайомчо-інформаційний характер. Всі
+        ілюстрації та зображення створені на комп'ютері та відображають базові
+        та концептуальні засади інтерпретації проєкту. Розробник і замовник
+        проєкту залишає за собою право вносити будь-які модифікації та зміни в
+        проєкт, включаючи, крім іншого, архітектурні та внутрішні особливості та
+        обробку, бренди, кольорові гами, матеріали, дизайн будівлі,
+        специфікації, малюнки та плани поверхів. Фактичні плани та розміри
+        квартир можуть мати незначні відмінності від типових планів,
+        представлених на цьому сайті.
+      </div>
+      <div class="social_media-wrapper footer__links">
         <nav class="nav-social">
           <a href="#"
             ><img
@@ -102,7 +406,7 @@
         </nav>
         <p class="header-adress">м.Київ, вул. Lorem-ipsum.</p>
       </div>
-    </header>
-    <script src="script.js"></script>
+    </footer>
+    <script defer src="script.js"></script>
   </body>
 </html>
