@@ -185,6 +185,7 @@ nav {
   font-size: 15px;
   border: none;
   border-radius: 10px;
+  color: black;
 }
 .price-modal {
   position: absolute;
@@ -201,7 +202,7 @@ nav {
 }
 .price-section {
   width: 80vw;
-  height: 25vh;
+  height: 35vh;
   margin: 30vh auto;
   background-color: #1b2021;
   display: flex;
@@ -264,6 +265,7 @@ nav {
   font-weight: 500;
   font-style: normal;
   font-size: 15px;
+  color: black;
 }
 .social_media-wrapper {
   margin: 0px 10px;
@@ -394,7 +396,7 @@ nav {
   color: #fff;
   text-align: center;
   font-family: "Montserrat";
-  font-size: 50px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 55px; /* 110% */
@@ -543,7 +545,7 @@ nav {
   color: #fff;
   text-align: center;
   font-family: "Montserrat";
-  font-size: 45px;
+  font-size: 35px;
   font-style: normal;
   font-weight: 700;
   line-height: 55px; /* 122.222% */
@@ -645,6 +647,7 @@ nav {
   font-weight: 400;
   display: block;
   margin-bottom: 5px;
+  color: white;
 }
 .button__map {
   text-decoration: none;
